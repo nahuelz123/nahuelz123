@@ -13,7 +13,7 @@
                     <div class="mb-3">
                </div>
           </form>-->
-         
+         <?php echo "dadawd";?>
           <form action="<?php echo FRONT_ROOT ?>Student\subirCv" method="post" enctype="multipart/form-data">  
     Seleccione archivo: <input name="fichero" type="file" size="150" maxlength="150">  
     <br><br> Nombre: <input name="nombre" type="text" size="70" maxlength="70"> 
