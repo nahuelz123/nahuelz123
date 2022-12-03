@@ -1,0 +1,54 @@
+
+
+
+
+<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+     <span class="navbar-text">
+          <strong>Framework</strong>
+     </span>
+     <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+               <a class="nav-link" href=/Framework2/Student\Profile>Student Profile</a>
+          </li> 
+          <br>
+          <li class="nav-item">
+               <a class="nav-link" href=/Framework2/Company\ShowListView>Company List</a>
+          </li> 
+          <br>
+          <br>
+          <li class="nav-item">
+               <a class="nav-link" href=/Framework2/Ofert\ShowListJobOferView > Job Offer List </a>
+          </li> 
+          <br>
+          <li class="nav-item">
+               <a class="nav-link" href=/Framework2/Application\listarApplication >Application List </a>
+          </li> 
+          <br>
+          <li class="nav-item">
+               <a class="nav-link" href=/Framework2/Student\showAddCv >cargar CV </a>
+          </li> 
+          <br>
+          <li class="nav-item">
+               <a class="nav-link" href=/Framework2/Student\showViewCV >ver CV </a>
+          </li> 
+     </ul>
+    
+     <a href=/Framework2/Session\logout >Cerrar Sesion</a>
+</nav><!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <link rel="stylesheet" type="text/css" href="/Framework2/Views/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="/Framework2/Views/css/estilos.css">
+     <title>tp final</title>
+</head>
+<body>
+<br />
+<b>Fatal error</b>:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Controllers\StudentController does not have a method &quot;Data&quot; in C:\xampp\htdocs\Framework2\Config\Router.php:23
+Stack trace:
+#0 C:\xampp\htdocs\Framework2\Config\Router.php(23): call_user_func_array(Array, Array)
+#1 C:\xampp\htdocs\Framework2\index.php(17): Config\Router::Route(Object(Config\Request))
+#2 {main}
+  thrown in <b>C:\xampp\htdocs\Framework2\Config\Router.php</b> on line <b>23</b><br />

@@ -1,0 +1,22 @@
+[
+    {
+        "user": "lola",
+        "password": "12345",
+        "name": "lola",
+        "BusinessName": "lazgameplay",
+        "description": "dawdawd",
+        "telephone": "4695038",
+        "email": "nahuelarielz1234@outlook.com",
+        "web": "sSdasdf"
+    },
+    {
+        "user": "acer",
+        "password": "1234",
+        "name": "acer",
+        "BusinessName": "acer2",
+        "description": "ddddd",
+        "telephone": "4695038",
+        "email": "nahuelarielz1234@outlook.com",
+        "web": "acer.com.ar"
+    }
+]
